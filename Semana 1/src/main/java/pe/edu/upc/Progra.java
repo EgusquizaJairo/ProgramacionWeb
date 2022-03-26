@@ -9,15 +9,10 @@ public class Progra {
 		Student student=new Student();
 		
 		student.setFirstName("Jairo Egusquiza");
-		
-		System.out.println(student.getFirstName());
-		
-		for (int i = 0; i < args.length; i++) {
-			
-		}
-	
+		student.setId(1L);
 
-	
+		System.out.println(student);
+		
 	}
 
 }
